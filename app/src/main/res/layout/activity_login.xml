@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ScrollView
+    android:fitsSystemWindows="true"
+    android:background="@color/bg_color"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout
+        android:id="@+id/main_layout"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="24dp"
+            android:paddingTop="66dp"
+            android:paddingRight="24dp">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:src="@drawable/logo" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:layout_marginBottom="30dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/proximanovaregular"
+                    android:gravity="center"
+                    android:text="@string/log_in"
+                    android:textColor="#3c4b5d"
+                    android:textSize="24sp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="12dp">
+
+                <EditText
+                    android:id="@+id/editTextUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/proximanovaregular"
+                    android:hint="Enter Mobile No"
+                    android:inputType="number"
+                    android:textColor="@color/edit_text"
+                    android:textColorHint="@color/edit_text"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp">
+
+                <EditText
+                    android:id="@+id/editTextPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/proximanovaregular"
+                    android:hint="Enter Password"
+                    android:inputType="textPassword"
+                    android:textColor="@color/edit_text"
+                    android:textColorHint="@color/edit_text"
+                    android:textSize="18sp" />
+                <ImageView
+                    android:id="@+id/show_pass_btn"
+                    android:layout_width="30dp"
+                    android:layout_height="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="5dp"
+                    android:onClick="ShowHidePass"
+                    android:src="@drawable/ic_baseline_remove_red_eye_24" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/link_forget_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:orientation="horizontal"
+                android:padding="12dp">
+
+                <TextView
+                    android:id="@+id/forgetPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="35dp"
+                    android:fontFamily="@font/proximanovaregular"
+                    android:gravity="start"
+                    android:text="Forgot Password/Reset Password ?"
+                    android:textColor="#3c4b5d"
+                    android:textSize="16dip" />
+                <TextView
+                    android:id="@+id/forgetPassword1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="@font/proximanovaregular"
+                    android:gravity="start"
+                    android:text="Call or Whatsapp me on 9569788173"
+                    android:layout_below="@id/forgetPassword"
+                    android:layout_centerInParent="true"
+                    android:textColor="#3c4b5d"
+                    android:textSize="16dip" />
+
+            </RelativeLayout>
+
+            <Button
+
+                android:id="@+id/buttonLogin"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="14dp"
+                android:background="@drawable/btn_login"
+                android:fontFamily="@font/proximanovaregular"
+                android:onClick="nextactivity"
+                android:padding="16dp"
+                android:text="Login"
+                android:textColor="@color/white" />
+
+
+            <LinearLayout
+                android:id="@+id/link_signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/txt_register"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/proximanovaregular"
+                    android:gravity="center"
+                    android:text="Join QuizHat"
+                    android:textColor="#3c4b5d"
+                    android:textSize="18dip" />
+
+                <TextView
+                    android:id="@+id/textViewRegister"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/proximanovaregular"
+                    android:gravity="center"
+                    android:onClick="registeractivity"
+                    android:text=" Register Now"
+                    android:textColor="#C32420"
+                    android:textSize="18dip"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ProgressBar android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/progressBar" android:visibility="gone" android:layout_centerVertical="true" android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+</ScrollView>

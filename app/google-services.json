@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "22086989324",
+    "project_id": "quizhat-9a2bc",
+    "storage_bucket": "quizhat-9a2bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22086989324:android:a007856fc7ffa0d9dc6029",
+        "android_client_info": {
+          "package_name": "com.winbee.quizhat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22086989324-lbi5jbo9lbeqjd8pdjba2eevnoa32iec.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCelcveE3uOSHzyNNcsrm0AKRRqCUHLTIk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22086989324-lbi5jbo9lbeqjd8pdjba2eevnoa32iec.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

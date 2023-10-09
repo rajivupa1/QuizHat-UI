@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">QuizHat</string>
+    <string name="log_in">Log In</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="phone">Phone</string>
+    <string name="went_wrong">Something Went Wrong</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_quiz">Today Quiz</string>
+</resources>

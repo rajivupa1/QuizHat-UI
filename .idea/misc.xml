@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/StudioProjects/QuizHat (2)/app/src/main/res/drawable/ic_circle_gray_trans.xml" value="0.22291666666666668" />
+        <entry key="..\:/StudioProjects/QuizHat (2)/app/src/main/res/layout/activity_online_test_question.xml" value="0.20677083333333332" />
+        <entry key="..\:/StudioProjects/QuizHat (2)/app/src/main/res/layout/activity_test_solution.xml" value="0.20677083333333332" />
+        <entry key="..\:/StudioProjects/QuizHat (2)/app/src/main/res/layout/activity_view_result.xml" value="0.15" />
+        <entry key="..\:/StudioProjects/QuizHat (2)/app/src/main/res/layout/custom_test_solution_adapter.xml" value="0.20677083333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

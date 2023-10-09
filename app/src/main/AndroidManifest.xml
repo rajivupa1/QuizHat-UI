@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.winbee.quizhat">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/quizhatlogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuizHat"
+        android:usesCleartextTraffic="true">
+
+        <activity
+            android:name=".activity.CurrentAffairDetails"
+            android:theme="@style/Theme.QuizHat.NoActionBar" />
+        <activity
+            android:name=".activity.AboutUsActivity"
+            android:theme="@style/Theme.QuizHat.NoActionBar" />
+        <activity
+            android:name=".activity.CurrentAfair"
+            android:theme="@style/Theme.QuizHat.NoActionBar" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:theme="@style/Theme.QuizHat.NoActionBar" />
+        <activity
+            android:name=".activity.TodayQuizActivity"
+            android:theme="@style/Theme.QuizHat.NoActionBar" />
+        <activity
+            android:name=".activity.SubscriptionActivity"
+            android:theme="@style/Theme.QuizHat.NoActionBar" />
+        <activity
+            android:name=".activity.OverViewActivity"
+            android:theme="@style/Theme.QuizHat.NoActionBar" />
+        <activity
+            android:name=".activity.TestSubscriptionActivity"
+            android:theme="@style/Theme.QuizHat.NoActionBar" />
+        <activity
+            android:name=".activity.ViewResultActivity"
+            android:theme="@style/Theme.QuizHat.NoActionBar" />
+        <activity
+            android:name=".activity.OnlineQuestionActivity"
+            android:theme="@style/Theme.QuizHat.NoActionBar" />
+        <activity
+            android:name=".activity.TestSolutionActivity"
+            android:theme="@style/Theme.QuizHat.NoActionBar" />
+        <activity
+            android:name=".activity.InstructionsActivity"
+            android:theme="@style/Theme.QuizHat.NoActionBar" />
+        <activity
+            android:name=".activity.TestRankActivity"
+            android:theme="@style/Theme.QuizHat.NoActionBar" />
+        <activity
+            android:name=".activity.OnlineTestActivity"
+            android:theme="@style/Theme.QuizHat.NoActionBar" />
+        <activity
+            android:name=".activity.ThirdLevelActivity"
+            android:theme="@style/Theme.QuizHat.NoActionBar" />
+        <activity
+            android:name=".activity.SecondLevelActivity"
+            android:theme="@style/Theme.QuizHat.NoActionBar" />
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:theme="@style/Theme.QuizHat.NoActionBar" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:theme="@style/Theme.QuizHat.NoActionBar" />
+        <activity
+            android:name=".activity.SplashActivity"
+            android:theme="@style/Theme.QuizHat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".Utils.MyMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

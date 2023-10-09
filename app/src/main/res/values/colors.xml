@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008eca</color>
+    <color name="white">#ffffff</color>
+    <color name="bg_color">#F0F6FC</color>
+    <color name="edit_text">#111</color>
+    <color name="colorPrimaryDark">#008eca</color>
+    <color name="colorAccent">#FF402D</color>
+    <color name="header">#008eca</color>
+    <color name="placeHolderBG">#dddddd</color>
+    <color name="grey">#9096A3</color>
+    <color name="R">#FFA726</color>
+    <color name="Python">#66BB6A</color>
+    <color name="CPP">#EF5350</color>
+    <color name="Java">#29B6F6</color>
+    <color name="grey_light">#E0E0E0</color>
+    <color name="gradientLightBlue">#61B6DD</color>
+    <color name="back_color">#f3f7fa</color>
+</resources>
