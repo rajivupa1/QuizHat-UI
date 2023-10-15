@@ -62,37 +62,20 @@
                 android:textColor="@color/edit_text"
                 android:fontFamily="@font/proximanovaregular"/>
 
-<!--        <TextView-->
-<!--            android:id="@+id/editTextOtion1"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:fontFamily="@font/proximanovaregular"-->
-<!--            android:text="dsfsdfdfdsfdsfdssdfsdfdsfsdfsdfsdfdsfdsfsdfsdfsd dsfdsfdsfsdfsdf"-->
-<!--            android:background="@drawable/bottom_layout"-->
-<!--            android:textColor="@color/edit_text"-->
-<!--            android:textColorHint="@color/edit_text"-->
-<!--            android:inputType="text"-->
-<!--            android:lines="5"-->
-<!--            android:maxLines="5"-->
-<!--            android:visibility="visible"-->
-<!--            android:padding="18dp"-->
-<!--            android:layout_marginStart="5dp"-->
-<!--            android:textSize="14sp" />-->
-
             <TextView
                 android:id="@+id/editTextOtion1_correct"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/option_correct"
                 android:fontFamily="@font/proximanovaregular"
-                android:text=""
+                android:text="hello this is only for the check loram imsum hello this is the correct"
                 android:textColor="@color/edit_text"
                 android:textColorHint="@color/edit_text"
-                android:inputType="text"
                 android:visibility="gone"
                 android:padding="18dp"
                 android:layout_marginStart="5dp"
                 android:textSize="14sp" />
+
             <TextView
                 android:id="@+id/editTextOtion1_wrong"
                 android:layout_width="match_parent"
@@ -102,7 +85,6 @@
                 android:background="@drawable/option_selected"
                 android:textColor="@color/edit_text"
                 android:textColorHint="@color/edit_text"
-                android:inputType="text"
                 android:visibility="gone"
                 android:padding="18dp"
                 android:layout_marginStart="5dp"
@@ -116,7 +98,6 @@
                 android:background="@drawable/option_flag"
                 android:textColor="@color/edit_text"
                 android:textColorHint="@color/edit_text"
-                android:inputType="text"
                 android:visibility="gone"
                 android:padding="18dp"
                 android:layout_marginStart="5dp"
@@ -193,7 +174,6 @@
                 android:text=""
                 android:textColor="@color/edit_text"
                 android:textColorHint="@color/edit_text"
-                android:inputType="text"
                 android:visibility="gone"
                 android:padding="18dp"
                 android:layout_marginStart="5dp"
@@ -207,7 +187,6 @@
                 android:background="@drawable/option_selected"
                 android:textColor="@color/edit_text"
                 android:textColorHint="@color/edit_text"
-                android:inputType="text"
                 android:visibility="gone"
                 android:padding="18dp"
                 android:layout_marginStart="5dp"
@@ -221,7 +200,6 @@
                 android:text=""
                 android:textColor="@color/edit_text"
                 android:textColorHint="@color/edit_text"
-                android:inputType="text"
                 android:visibility="gone"
                 android:padding="18dp"
                 android:layout_marginStart="5dp"
@@ -296,7 +274,6 @@
                 android:background="@drawable/option_correct"
                 android:textColor="@color/edit_text"
                 android:textColorHint="@color/edit_text"
-                android:inputType="text"
                 android:visibility="gone"
                 android:padding="18dp"
                 android:layout_marginStart="5dp"
@@ -310,7 +287,6 @@
                 android:background="@drawable/option_selected"
                 android:textColor="@color/edit_text"
                 android:textColorHint="@color/edit_text"
-                android:inputType="text"
                 android:visibility="gone"
                 android:padding="18dp"
                 android:layout_marginStart="5dp"
@@ -324,7 +300,6 @@
                 android:text=""
                 android:textColor="@color/edit_text"
                 android:textColorHint="@color/edit_text"
-                android:inputType="text"
                 android:visibility="gone"
                 android:padding="18dp"
                 android:layout_marginStart="5dp"
@@ -403,7 +378,6 @@
                 android:text=""
                 android:textColor="@color/edit_text"
                 android:textColorHint="@color/edit_text"
-                android:inputType="text"
                 android:visibility="gone"
                 android:padding="18dp"
                 android:layout_marginStart="5dp"
@@ -417,7 +391,6 @@
                 android:background="@drawable/option_selected"
                 android:textColor="@color/edit_text"
                 android:textColorHint="@color/edit_text"
-                android:inputType="text"
                 android:visibility="gone"
                 android:padding="18dp"
                 android:layout_marginStart="5dp"
@@ -431,7 +404,6 @@
                 android:background="@drawable/option_flag"
                 android:textColor="@color/edit_text"
                 android:textColorHint="@color/edit_text"
-                android:inputType="text"
                 android:visibility="gone"
                 android:padding="18dp"
                 android:layout_marginStart="5dp"
