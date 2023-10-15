@@ -41,26 +41,44 @@
             android:layout_marginTop="15dp"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp">
-        <ImageView
+
+           <ImageView
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:src="@drawable/a_letter"
             android:layout_marginStart="5dp" />
 
-        <TextView
-            android:id="@+id/editTextOtion1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/proximanovaregular"
-            android:text=""
-            android:background="@drawable/bottom_layout"
-            android:textColor="@color/edit_text"
-            android:textColorHint="@color/edit_text"
-            android:inputType="text"
-            android:visibility="visible"
-            android:padding="18dp"
-            android:layout_marginStart="5dp"
-            android:textSize="14sp" />
+            <TextView
+                android:id="@+id/editTextOtion1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="hello this is only for the check loram imsum hello this is the correct"
+                android:padding="18dp"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/bottom_layout"
+                android:textSize="14sp"
+                android:visibility="visible"
+                android:textColorHint="@color/edit_text"
+                android:textColor="@color/edit_text"
+                android:fontFamily="@font/proximanovaregular"/>
+
+<!--        <TextView-->
+<!--            android:id="@+id/editTextOtion1"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:fontFamily="@font/proximanovaregular"-->
+<!--            android:text="dsfsdfdfdsfdsfdssdfsdfdsfsdfsdfsdfdsfdsfsdfsdfsd dsfdsfdsfsdfsdf"-->
+<!--            android:background="@drawable/bottom_layout"-->
+<!--            android:textColor="@color/edit_text"-->
+<!--            android:textColorHint="@color/edit_text"-->
+<!--            android:inputType="text"-->
+<!--            android:lines="5"-->
+<!--            android:maxLines="5"-->
+<!--            android:visibility="visible"-->
+<!--            android:padding="18dp"-->
+<!--            android:layout_marginStart="5dp"-->
+<!--            android:textSize="14sp" />-->
+
             <TextView
                 android:id="@+id/editTextOtion1_correct"
                 android:layout_width="match_parent"
@@ -142,17 +160,30 @@
                 android:id="@+id/editTextOtion2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/bottom_layout"
-                android:fontFamily="@font/proximanovaregular"
-                android:text=""
-
-                android:textColor="@color/edit_text"
-                android:textColorHint="@color/edit_text"
-                android:inputType="text"
-                android:visibility="visible"
+                android:text="hello this is only for the check loram imsum hello this is the correct"
                 android:padding="18dp"
                 android:layout_marginStart="5dp"
-                android:textSize="14sp" />
+                android:background="@drawable/bottom_layout"
+                android:textSize="14sp"
+                android:visibility="visible"
+                android:textColorHint="@color/edit_text"
+                android:textColor="@color/edit_text"
+                android:fontFamily="@font/proximanovaregular"/>
+
+<!--            <TextView-->
+<!--                android:id="@+id/editTextOtion2"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="@drawable/bottom_layout"-->
+<!--                android:fontFamily="@font/proximanovaregular"-->
+<!--                android:text=""-->
+<!--                android:textColor="@color/edit_text"-->
+<!--                android:textColorHint="@color/edit_text"-->
+<!--                android:inputType="text"-->
+<!--                android:visibility="visible"-->
+<!--                android:padding="18dp"-->
+<!--                android:layout_marginStart="5dp"-->
+<!--                android:textSize="14sp" />-->
             <TextView
                 android:id="@+id/editTextOtion2_correct"
                 android:layout_width="match_parent"
@@ -233,16 +264,29 @@
                 android:id="@+id/editTextOtion3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/proximanovaregular"
-                android:text=""
-                android:background="@drawable/bottom_layout"
-                android:textColor="@color/edit_text"
-                android:textColorHint="@color/edit_text"
-                android:inputType="text"
-                android:visibility="visible"
+                android:text="hello this is only for the check loram imsum hello this is the correct"
                 android:padding="18dp"
                 android:layout_marginStart="5dp"
-                android:textSize="14sp" />
+                android:background="@drawable/bottom_layout"
+                android:textSize="14sp"
+                android:visibility="visible"
+                android:textColorHint="@color/edit_text"
+                android:textColor="@color/edit_text"
+                android:fontFamily="@font/proximanovaregular"/>
+<!--            <TextView-->
+<!--                android:id="@+id/editTextOtion3"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:fontFamily="@font/proximanovaregular"-->
+<!--                android:text=""-->
+<!--                android:background="@drawable/bottom_layout"-->
+<!--                android:textColor="@color/edit_text"-->
+<!--                android:textColorHint="@color/edit_text"-->
+<!--                android:inputType="text"-->
+<!--                android:visibility="visible"-->
+<!--                android:padding="18dp"-->
+<!--                android:layout_marginStart="5dp"-->
+<!--                android:textSize="14sp" />-->
             <TextView
                 android:id="@+id/editTextOtion3_correct"
                 android:layout_width="match_parent"
@@ -325,16 +369,30 @@
                 android:id="@+id/editTextOtion4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/proximanovaregular"
-                android:text=""
-                android:background="@drawable/bottom_layout"
-                android:textColor="@color/edit_text"
-                android:textColorHint="@color/edit_text"
-                android:inputType="text"
-                android:visibility="visible"
+                android:text="hello this is only for the check loram imsum hello this is the correct jnjn"
                 android:padding="18dp"
                 android:layout_marginStart="5dp"
-                android:textSize="14sp" />
+                android:background="@drawable/bottom_layout"
+                android:textSize="14sp"
+                android:visibility="visible"
+                android:textColorHint="@color/edit_text"
+                android:textColor="@color/edit_text"
+                android:fontFamily="@font/proximanovaregular"/>
+
+<!--            <TextView-->
+<!--                android:id="@+id/editTextOtion4"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:fontFamily="@font/proximanovaregular"-->
+<!--                android:text=""-->
+<!--                android:background="@drawable/bottom_layout"-->
+<!--                android:textColor="@color/edit_text"-->
+<!--                android:textColorHint="@color/edit_text"-->
+<!--                android:inputType="text"-->
+<!--                android:visibility="visible"-->
+<!--                android:padding="18dp"-->
+<!--                android:layout_marginStart="5dp"-->
+<!--                android:textSize="14sp" />-->
 
             <TextView
                 android:id="@+id/editTextOtion4_correct"

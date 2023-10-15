@@ -20,12 +20,16 @@ public class CurrentAffairDetailsDataModel implements Serializable
     @Expose
     private String date;
 
+    @SerializedName("img_url")
+    @Expose
+    private String img_url;
 
-    public CurrentAffairDetailsDataModel(String title, String description, String date) {
+
+    public CurrentAffairDetailsDataModel(String title, String description, String date, String img_url) {
         this.title = title;
         this.description = description;
         this.date = date;
-
+        this.img_url = img_url;
     }
 
     public String getTitle() {
@@ -50,6 +54,14 @@ public class CurrentAffairDetailsDataModel implements Serializable
 
     public void setDate(String date) {
         this.date = date;
+    }
+
+    public String getImg_url() {
+        return img_url;
+    }
+
+    public void setImg_url(String img_url) {
+        this.img_url = img_url;
     }
 
 }

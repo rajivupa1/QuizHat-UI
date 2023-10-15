@@ -7,12 +7,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebView;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.squareup.picasso.Picasso;
 import com.winbee.quizhat.R;
 import com.winbee.quizhat.Utils.URLImageParser;
 import com.winbee.quizhat.model.CurrentAffairDataModel;
@@ -41,8 +43,18 @@ public class CurrentAffairDetailsAdapter extends RecyclerView.Adapter<CurrentAff
 
         holder.title.setText(list1.get(position).getTitle());
         holder.date.setText(list1.get(position).getDate());
-
         holder.txt_htmlcontent.loadData(list1.get(position).getDescription(), "text/html", "utf-8");
+        if(!list1.get(position).getImg_url().isEmpty())
+        {
+            holder.blogImg.setVisibility(View.VISIBLE);
+            String blogimgUrl = list1.get(position).getImg_url().trim();
+            Picasso.get().load(blogimgUrl.replace("https://","https://www.")).placeholder(R.drawable.logo).fit().into(holder.blogImg);
+           // Picasso.get().load(list1.get(position).getImg_url()).into(holder.blogImg);
+        }
+        else
+        {
+            holder.blogImg.setVisibility(View.GONE);
+        }
 
         //holder.htmlcontent.setText(Html.fromHtml(list1.get(position).getDescription()));
 
@@ -57,11 +69,13 @@ public class CurrentAffairDetailsAdapter extends RecyclerView.Adapter<CurrentAff
 
         private TextView date,title,htmlcontent;
         WebView txt_htmlcontent;
+        private ImageView blogImg;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             date = itemView.findViewById(R.id.txt_date);
             title = itemView.findViewById(R.id.txt_course);
             txt_htmlcontent = itemView.findViewById(R.id.txt_htmlcontent);
+            blogImg = itemView.findViewById(R.id.blogImg);
         }
     }
 }
